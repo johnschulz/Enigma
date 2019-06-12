@@ -11,5 +11,17 @@ Compile all files in the terminal:
     javac -g -Xlint:unchecked enigma/*.java
     
 Run:
+    
+    java -ea enigma.Main [configuration_file] [input_file] [output(optional)]
+
+Example: 
+
+    java -ea enigma.Main testing/correct/default.conf testing/correct/trivial.inp
+    
+Or
+    
+    java -ea enigma.Main testing/correct/default.conf testing/correct/car1.inp
+
+Enjoy!
 
 
